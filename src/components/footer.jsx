@@ -31,13 +31,14 @@ function Footer() {
       </div>
 
       <div className="col-lg-3 col-md-6 footer-links">
-        <h4>Our Services</h4>
+        <h4>Parish Activities</h4>
         <ul>
-          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Web Design</a></li>
-          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Web Development</a></li>
-          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Product Management</a></li>
-          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Marketing</a></li>
-          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Graphic Design</a></li>
+          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Daily Mass</a></li>
+          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Confession</a></li>
+          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Infant Baptism</a></li>
+          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Catechism</a></li>
+          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">A Day with the Lord</a></li>
+          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">First Friday Programme</a></li>
         </ul>
       </div>
 
@@ -57,14 +58,15 @@ function Footer() {
 
   <div className="me-md-auto text-center text-md-start">
     <div className="copyright">
-      &copy; Copyright <strong><span>Presento</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>St. Francis Catholic Church, Benin City</span></strong>. All Rights Reserved
     </div>
     <div className="credits">
       {/* <!-- All the links in the footer should remain intact. -->
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/presento-bootstrap-corporate-template/ --> */}
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      Powered by <a href="https://www.gnotable.ng/">Gnotable Technologies</a>
+      <span className='text-dark'>Template by</span> <a href="https://bootstrapmade.com/" className='text-dark'>BootstrapMade</a>
     </div>
   </div>
   <div className="social-links text-center text-md-end pt-3 pt-md-0">
