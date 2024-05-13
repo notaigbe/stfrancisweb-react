@@ -7,7 +7,7 @@ function Contact() {
 
         <div className="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+          <p>For more information and enquiries</p>
         </div>
 
         <div className="row" data-aos="fade-up" data-aos-delay="100">
@@ -19,14 +19,14 @@ function Contact() {
                 <div className="info-box">
                   <i className="bx bx-map"><Map /></i>
                   <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>12 College Road, Off Ekehwan Road, Benin City</p>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="info-box mt-4">
                   <i className="bx bx-envelope"><Envelope /></i>
                   <h3>Email Us</h3>
-                  <p>info@example.com<br/>contact@example.com</p>
+                  <p>info@stfrancisbenincity.ng<br/>admin@stfrancisbenincity.ng</p>
                 </div>
               </div>
               <div className="col-md-6">

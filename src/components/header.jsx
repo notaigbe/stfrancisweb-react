@@ -62,6 +62,7 @@ function Header() {
   return (
     <header id="header" className="fixed-top d-flex align-items-center pe-5">
       <div className="container d-flex align-items-center">
+      <img style={{height: "60px"}} src={require("../assets/img/st francis new.jpg")} alt="logo" className="me-2 img-fluid"/>
         <h1 className="logo me-auto">
           <a href="index.html">
             ST<span>.</span> FRANCIS CATHOLIC CHURCH

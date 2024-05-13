@@ -11,11 +11,11 @@ function Footer() {
       <div className="col-lg-3 col-md-6 footer-contact">
         <h3>St<span>.</span> Francis Catholic Church</h3>
         <p>
-          A108 Adam Street <br/>
-          New York, NY 535022<br/>
-          United States <br/><br/>
+        12 College Road, Off Ekehuan Road,  <br/>
+        Benin City,<br/>
+          Nigeria <br/><br/>
           <strong>Phone:</strong> +1 5589 55488 55<br/>
-          <strong>Email:</strong> info@example.com<br/>
+          <strong>Email:</strong> info@stfrancisbenincity.ng<br/>
         </p>
       </div>
 
@@ -24,7 +24,7 @@ function Footer() {
         <ul>
           <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Home</a></li>
           <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">About us</a></li>
-          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Services</a></li>
+          <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Parish Activities</a></li>
           <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Terms of service</a></li>
           <li><i className="bx bx-chevron-right"><ChevronRight /></i> <a href="#">Privacy policy</a></li>
         </ul>

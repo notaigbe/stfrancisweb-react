@@ -12,10 +12,10 @@ function Team() {
 
         <div className="row">
 
-          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div className="member" data-aos="fade-up" data-aos-delay="100">
               <div className="member-img">
-                <img src={require("../assets/img/team/team-1.jpg")} className="img-fluid" alt=""/>
+                <img src={require("../assets/img/team/obinyan.jpg")} className="img-fluid" alt=""/>
                 <div className="social">
                   <a href=""><i className="bi bi-twitter"><Twitter /></i></a>
                   <a href=""><i className="bi bi-facebook"><Facebook /></i></a>
@@ -24,13 +24,13 @@ function Team() {
                 </div>
               </div>
               <div className="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Very Rev. Fr. Dr. Andrew Aigbe Obinyan</h4>
+                <span>Parish Priest</span>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div className="member" data-aos="fade-up" data-aos-delay="200">
               <div className="member-img">
                 <img src={require("../assets/img/team/team-2.jpg")} className="img-fluid" alt=""/>
@@ -42,13 +42,13 @@ function Team() {
                 </div>
               </div>
               <div className="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Rev. Fr. Egejuru Emmanuel</h4>
+                <span>Assistant Priest</span>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div className="member" data-aos="fade-up" data-aos-delay="300">
               <div className="member-img">
                 <img src={require("../assets/img/team/team-3.jpg")} className="img-fluid" alt=""/>
@@ -66,23 +66,7 @@ function Team() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div className="member" data-aos="fade-up" data-aos-delay="400">
-              <div className="member-img">
-                <img src={require("../assets/img/team/team-4.jpg")} className="img-fluid" alt=""/>
-                <div className="social">
-                <a href=""><i className="bi bi-twitter"><Twitter /></i></a>
-                  <a href=""><i className="bi bi-facebook"><Facebook /></i></a>
-                  <a href=""><i className="bi bi-instagram"><Instagram /></i></a>
-                  <a href=""><i className="bi bi-linkedin"><Linkedin /></i></a>
-                </div>
-              </div>
-              <div className="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div>
+          
 
         </div>
 

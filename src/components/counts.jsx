@@ -15,7 +15,7 @@ function Counts() {
                 data-purecounter-duration="1"
                 className="purecounter"
               ><CountUp end={2862}></CountUp></span>
-              <p>Parishoners</p>
+              <p>Parishioners</p>
             </div>
           </div>
 

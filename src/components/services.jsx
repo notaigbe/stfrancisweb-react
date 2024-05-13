@@ -1,4 +1,4 @@
-
+import { Briefcase, Book, Cup, CardChecklist, BarChart, Binoculars, BrightnessHigh, Calendar4Week } from 'react-bootstrap-icons'
 
 function Services() {
     return(
@@ -6,53 +6,54 @@ function Services() {
       <div className="container" data-aos="fade-up">
 
         <div className="section-title">
-          <h2>Parish Activities</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+          <h2>information Centre</h2>
+          <p>We want to ensure everyone stays informed and engaged in the life of our parish. Below are the days and times for various informational sessions:</p>
         </div>
 
         <div className="row">
           <div className="col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <i className="bi bi-briefcase"></i>
-              <h4><a href="#">Daily Mass</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <i className="bi bi-briefcase"><Briefcase /></i>
+              <h4><a href="#">Mass Schedule</a></h4>
+              <p>Sunday & Weekday Mornings - 6:30am | Afternoon Mass - 12:30pm</p>
             </div>
           </div>
           <div className="col-md-6 mt-4 mt-md-0">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <i className="bi bi-card-checklist"></i>
-              <h4><a href="#">Confession</a></h4>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <i className="bi bi-card-checklist"><CardChecklist /></i>
+              <h4><a href="#">Office Hours</a></h4>
+              <p>Tuesdays : 8:00am - 12noon</p>
             </div>
           </div>
           <div className="col-md-6 mt-4 mt-md-0">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <i className="bi bi-bar-chart"></i>
-              <h4><a href="#">Infant Baptism</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <i className="bi bi-bar-chart"><BarChart /></i>
+              <h4><a href="#">Catechism Classes</a></h4>
+              <p>Mondays, Wednesdays and Fridays by 4:00pm</p>
             </div>
           </div>
           <div className="col-md-6 mt-4 mt-md-0">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <i className="bi bi-binoculars"></i>
-              <h4><a href="#">Catechism</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <i className="bi bi-binoculars"><Binoculars /></i>
+              <h4><a href="#">Confession</a></h4>
+              <p>Saturdays at 5:00pm | After morning Masses</p>
             </div>
           </div>
           <div className="col-md-6 mt-4 mt-md-0">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="500">
-              <i className="bi bi-brightness-high"></i>
-              <h4><a href="#">A Day with the Lord</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <i className="bi bi-brightness-high"><BrightnessHigh /></i>
+              <h4><a href="#">Holy hour/ Benediction</a></h4>
+              <p>Sundays at 5:00pm</p>
             </div>
           </div>
           <div className="col-md-6 mt-4 mt-md-0">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="600">
-              <i className="bi bi-calendar4-week"></i>
-              <h4><a href="#">First Friday of the Month</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <i className="bi bi-calendar4-week"><Calendar4Week /></i>
+              <h4><a href="#">Infant Baptisim</a></h4>
+              <p>First Saturday of every month after morning mass</p>
             </div>
           </div>
+          
         </div>
 
       </div>
